@@ -1,0 +1,14 @@
+{
+  "name": "teste-ebanx-v0",
+  "version": "1.0.0",
+  "description": "Teste v0 do ebanx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cassiano",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
