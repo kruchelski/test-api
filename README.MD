@@ -4,8 +4,10 @@
 This is a simple bank API for testing purposes. It can handle a few operation and, to this moment, it does not handles data persistance.
 
 ## Routes
-`POST /reset`- Resets the storage system (it doesn't matter the body of this request)
-`GET /test` - Return the actual list of accounts in the storage system
+`POST /reset`- Resets the storage system (it doesn't matter the body of this request)   
+
+`GET /test` - Return the actual list of accounts in the storage system   
+
 `GET /balance` - Return the balance of an account based on the query parameters passed in the url. It doesn't find, a 404 response will be sent. The query parameters must be passed like the following example:
 - `/balance?account_id=100`
 `POST /event` - This endpoint can handle three operations:
