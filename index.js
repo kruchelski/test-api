@@ -11,7 +11,7 @@ const port = 3000;
 const fileName = 'tetinha.json';
 
 app.listen(port, () => {
-  console.log('API viva na porta ' + port);
+  console.log('API is alive at the port ' + port);
 })
 
 app.use('/', accountRouter);
